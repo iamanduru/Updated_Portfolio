@@ -123,7 +123,7 @@ export default function Contact() {
                 <div className="flex flex-wrap gap-4">
                   <Button className="bg-emerald-600 hover:bg-amber-500 text-white hover:text-teal-100 shadow-lg transition-all">
                     <a 
-                      href="/Anduru_Resume.pdf" 
+                      href="../img/Anduru.pdf" 
                       download 
                       className="inline-flex items-center"
                     >
