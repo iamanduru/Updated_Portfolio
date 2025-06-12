@@ -5,7 +5,6 @@ import Button from '../components/Button'
 import {
   ArrowRight,
   Github,
-  Linkedin,
   Mail,
   Code,
   Layout,
@@ -17,7 +16,6 @@ import FooterNav from '../components/FooterNav'
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false)
 
-  // Skills showcase
   const skills = [
     {
       name: 'Frontend',
@@ -118,12 +116,10 @@ export default function Home() {
                 : 'opacity-0 translate-y-4'
             }`}
           >
-            {[Github, Linkedin, Mail].map((Icon, i) => {
+            {[Github, Mail].map((Icon, i) => {
               const href =
                 Icon === Github
                   ? 'https://github.com/iamanduru'
-                  : Icon === Linkedin
-                  ? 'https://linkedin.com/in/anduru'
                   : 'mailto:andurumitchelleanyango@gmail.com'
               return (
                 <a
@@ -134,8 +130,6 @@ export default function Home() {
                   aria-label={
                     Icon === Github
                       ? 'GitHub'
-                      : Icon === Linkedin
-                      ? 'LinkedIn'
                       : 'Email'
                   }
                   className="text-teal-600 hover:text-amber-400 transform transition-all duration-300 hover:scale-110"

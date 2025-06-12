@@ -54,22 +54,6 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-center group">
-                  <div className="w-10 h-10 bg-teal-700 rounded-full flex items-center justify-center mr-4 group-hover:bg-amber-400 transition-colors">
-                    <Linkedin className="h-5 w-5 text-teal-500" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-400 ">LinkedIn</p>
-                    <a
-                      href="https://linkedin.com/in/anduru"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-amber-400 hover:text-amber-600 transition-colors font-medium"
-                    >
-                      linkedin.com/in/anduru
-                    </a>
-                  </div>
-                </div>
 
                 <div className="flex items-center group">
                   <div className="w-10 h-10 bg-teal-700 rounded-full flex items-center justify-center mr-4 group-hover:bg-amber-400 transition-colors">

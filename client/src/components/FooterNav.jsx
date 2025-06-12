@@ -74,16 +74,6 @@ export default function FooterNav() {
                 <ExternalLink className="h-3 w-3 opacity-50" />
               </a>
               <a
-                href="https://linkedin.com/in/anduru"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 text-teal-300 hover:text-amber-400 transition-colors duration-200"
-              >
-                <Linkedin className="h-5 w-5" />
-                <span>LinkedIn</span>
-                <ExternalLink className="h-3 w-3 opacity-50" />
-              </a>
-              <a
                 href="mailto:contact@anduru.dev"
                 className="flex items-center gap-3 text-teal-300 hover:text-amber-400 transition-colors duration-200"
               >
